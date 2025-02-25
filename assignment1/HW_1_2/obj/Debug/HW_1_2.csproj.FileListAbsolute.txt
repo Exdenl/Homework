@@ -1,0 +1,10 @@
+C:\Project\C#\HW_1_2\bin\Debug\HW_1_2.exe.config
+C:\Project\C#\HW_1_2\bin\Debug\HW_1_2.exe
+C:\Project\C#\HW_1_2\bin\Debug\HW_1_2.pdb
+C:\Project\C#\HW_1_2\obj\Debug\HW_1_2.csproj.AssemblyReference.cache
+C:\Project\C#\HW_1_2\obj\Debug\HW_1_2.Form1.resources
+C:\Project\C#\HW_1_2\obj\Debug\HW_1_2.Properties.Resources.resources
+C:\Project\C#\HW_1_2\obj\Debug\HW_1_2.csproj.GenerateResource.cache
+C:\Project\C#\HW_1_2\obj\Debug\HW_1_2.csproj.CoreCompileInputs.cache
+C:\Project\C#\HW_1_2\obj\Debug\HW_1_2.exe
+C:\Project\C#\HW_1_2\obj\Debug\HW_1_2.pdb
