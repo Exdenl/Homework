@@ -192,15 +192,26 @@ namespace OrderApp
                         break;
                     case "2":
                         Console.Write("输入订单号:");
-                        result = manager.Find(o => o.ID == int.Parse(Console.ReadLine()));
+                        var idInput = Console.ReadLine().Trim();
+                        if (int.TryParse(idInput, out int id))
+                        {
+                            result = manager.Find(o => o.ID == id);
+                        }
+                        else
+                        {
+                            Console.WriteLine("订单号格式错误，请输入有效的数字。");
+                        }
                         break;
                     case "3":
                         Console.Write("输入商品名:");
-                        result = manager.Find(o => o.Items.Any(i => i.Product == Console.ReadLine()));
+                        string productName = Console.ReadLine().Trim();
+                        result = manager.Find(o => o.Items.Any(i => i.Product == productName));
                         break;
                     case "4":
                         Console.Write("输入客户名:");
-                        result = manager.Find(o => o.Customer == Console.ReadLine());
+                        var name = Console.ReadLine().Trim();
+                        result = manager.Find(o => o.Customer == name);
+                        //result = manager.Find(o => o.Customer == Console.ReadLine());
                         break;
                     case "5":
                         Console.Write("最低金额:");
